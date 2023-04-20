@@ -14,6 +14,7 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Counter Functions"),
+          backgroundColor: Colors.amber ,
           actions: [
             IconButton(
               icon: const Icon(Icons.refresh_rounded),
